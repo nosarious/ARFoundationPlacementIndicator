@@ -146,7 +146,7 @@ Inside of the if statement, let's set the position and rotation of the placement
 
 ```
 transform.position = hits[0].pose.position;
-transform.position = hits[0].pose.rotation;
+transform.rotation = hits[0].pose.rotation; 
 ```
 
 Let's also enable the visual if it's disabled.
